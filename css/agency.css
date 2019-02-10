@@ -22,7 +22,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #D5E5F4 !important;
 }
 
 h1,
@@ -106,7 +106,8 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #D5E5F4;
+  opacity: 0.9;
 }
 
 #mainNav .navbar-toggler {
@@ -116,12 +117,13 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #B9B9C3;
+  opacity:0.7;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #F90610;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   
   font-size: 35px!important;
@@ -244,6 +246,12 @@ header.masthead .intro-text .intro-heading {
   margin: 0 0 15px;
 }
 
+.portfolio-thumb{
+	max-width:200px!important;
+	max-height:200px!important;
+	padding-bottom: 35px!important;
+}
+
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
@@ -264,7 +272,13 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
-}
+ }
+ 
+ .portfolio-plus{
+	 color:#F90610!important;
+	 padding-top: 20px;
+	 padding-bottom: 20px;
+ }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
@@ -461,7 +475,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #D5E5F4;
 }
 
 .timeline > li .timeline-image h4 {
@@ -685,7 +699,21 @@ ul.social-buttons {
   margin-bottom: 0;
 }
 
-ul.social-buttons li a {
+
+.social-bt {
+  font-size: 30px;
+  color: #D5E5F4!important;
+  padding-right: 15px;
+   
+}
+
+
+.social-font{
+	color:#706F77!important;
+}
+
+
+.ul.social-buttons li a {
   font-size: 20px;
   line-height: 50px;
   display: block;
@@ -696,9 +724,9 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #D5E5F4;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #F90610;
 }
